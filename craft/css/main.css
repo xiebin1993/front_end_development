@@ -441,11 +441,261 @@ h2{
 }
 
 .content-text2>picture img{
-  padding: 48px 0 22px; 
+  padding: 48px 0 22px;
 }
 .content-img.fadeInLeft.wow{
   position: absolute;
   width: 45%;
   height: 45%;
   margin-left: 20px;
+}
+
+.content-text2 span{
+  font-size: 15px;
+  line-height: 22px;
+  font-style: italic;
+  color: #83888c;
+  padding: 0 0 20px;
+}
+
+.content-text2 figure{
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content-text2 figure img{
+  width: 42px;
+}
+
+.content-text2 figcaption{
+  padding-left: 8px;font-size: 14px;
+  font-style: italic;
+  color: #83888c;
+}
+
+.content-box3{
+  position: absolute;
+  top: 2220px;
+  margin: 0 50px;
+}
+
+.content-box3 .content-img.fadeInRight.wow {
+  position: absolute;
+  top: 53px;
+  left: 116%;
+  width: 680px;
+}
+
+.toolbackgroun{
+  position: absolute;
+  top: 2930px;
+  text-align: center;
+  background: #0265ff;
+  width: 100%;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.toolbackgroun .content-image{
+  max-width: 780px;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.content-text-image h2{
+  font-size: 35px;
+  font-weight: 300;
+  padding: 0 0 14px;
+}
+
+.content-text-image p{
+  line-height: 30px;
+  padding: 0 20px;
+}
+
+.content-image  img{
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  padding: 60px 0 0 0;
+}
+
+.creating-product{
+  background: #032749 url('https://craft.io/img/bg/group.webp') 50%/contain;
+  width: 100%;
+  height: 1129px;
+  position: absolute;
+  top: 3711px;
+}
+
+.creating-product-all{
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.creating-product-text{
+  padding: 76px 30px;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: 300;
+  padding: 0 0 14px;
+}
+
+.all-slider{
+  width: 100%;
+  text-align: center;
+  padding: 0 10px 94px;
+}
+
+.slider-item{
+  color: #fff;
+  width: 0%;
+  min-width: 250px;
+  max-width: 270px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: auto;
+  padding: 0 10px 20px ;
+  margin: auto;
+}
+
+.slider-content{
+  background: #003a70;
+  padding: 50px 15px 30px;
+}
+
+.slider-content img{
+  width: 55px;
+  margin: 0 0 30px;
+}
+
+.slider-content h3{
+  font-weight: 700;
+  padding: 0 0 20px;
+}
+
+.slider-content p{
+  color: rgba(255, 255, 255, .35);
+  padding: 0 0px 30px 0px;
+}
+
+.block-logo{
+  position: absolute;
+  background: #fff;
+  padding: 76px 0 140px;
+  top: 4840px;
+  text-align: center;
+}
+
+.block-logo h3{
+  font-size: 16px;
+  line-height: 1.38;
+  color: #30353d;
+}
+
+.big-logo{
+  padding: 40px 0 0;
+}
+
+.big-logo .all-logo{
+  max-width: 1440px;
+  height: auto;
+}
+
+.all-logo{
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.big-logo .all-logo a{
+  padding: 20px 56px;
+  margin: 10px -5px;
+}
+
+.signup-form{
+  position: absolute;
+  top: 5300px;
+  color: #0084ff;
+  max-width: 1330px;
+  margin: -58px auto;
+  background: #fff;
+  text-align: center;
+  box-shadow: 6.8px 14.5px 27px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid #e0e6ed;
+  width: 100%;
+  height: 342px;
+}
+
+.red-block-center{
+  padding: 32px 50px 45px;
+  position: relative;
+}
+.validation{
+  position: relative;
+}
+
+.input{
+  margin: 8px 15px 25px;
+  padding: 12px 0 12px;
+  font-size: 18px;
+  background: #fff;
+  color: #8492a6;
+  width: 210px;
+  border-bottom: 2px solid #0084ff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.validation .error-message{
+  position: absolute;
+  bottom: -18px;
+  left: 22px;
+  z-index: 1;
+  color: #f15056;
+  font-style: italic;
+  text-align: left;
+  height: 40px;
+}
+
+.validation label{
+  background: #fff;
+  color: #8492a6;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  left: 20px;
+  top: 20px;
+  text-align: left;
+  transition: .2s ease-out;
+}
+
+.input-btn{
+  margin: 36px 0 18px;
+  width: 250px;
+  color: #fff;
+  background: #0084ff;
+  padding: 12px 0;
+  font-size: 18px;
+  border: none;
+}
+
+.input-block-desc{
+  font-size: 14px;
+  color: rgba(132, 146, 166, .67);
+}
+
+.red-block-a{
+  text-decoration: underline;
 }
